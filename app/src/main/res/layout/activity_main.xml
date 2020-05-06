@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Behenjy"
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_below="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bhaisaban"
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_below="@+id/ch2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suar"
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_below="@+id/ch3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bullu"
+        android:textSize="25dp"/>
+
+
+    <CheckBox
+        android:id="@+id/ch5"
+        android:layout_below="@+id/ch4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Babbu"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT"
+        android:layout_below="@+id/ch5"/>
+
+
+</RelativeLayout>

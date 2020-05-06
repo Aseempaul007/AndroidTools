@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etwebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter url here!!"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnwebview"
+        android:layout_below="@+id/etwebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="GO=>"/>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/btnwebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
